@@ -1,0 +1,22 @@
+It follows the FIFO ( First In First Out ) principle
+
+It has two ends
+
+(i)  The rear end
+(ii) The front end
+
+It has two operations
+
+(i)  enqueue --> add data to the rear end
+(ii) dequeue --> delete data from the front end
+
+Here insertion of new elements take place from the back(rear) side and deletion occurs from the front side
+
+Some Terms
+...........
+(i)   Peek --> Refers to inspecting the value at front of the queue
+
+(ii)  Overflow --> refers to a situation (Error) in which one tries to insert an element to a queue of fixed size
+                   with insufficient memory to hold the new element
+
+(iii) Underflow --> refers to a situation (Error) when one tries to delete an element from an empty queue

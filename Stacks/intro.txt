@@ -1,0 +1,11 @@
+Stacks allow insertion and deletion of elements from one end only ,called the top of the stack
+It follows the LIFO ( Last In First Out ) Principle
+It has two operations :
+(i) push() [To add an element to top of stack]
+(ii) pop() [ To delete the element from the top of stack ]
+
+Terms:
+(i) peek --> refers to accessing the topmost value of stack without removing it
+(ii) Overflow --> refers to (ERROR) situation when someone tries to push an element to a stack which is already full.
+    This occurs when the size of the stack is fixed and there is no more memory left to accommodate the new element
+(iii) Underflow --> refers to (ERROR) situation when someone tries to delete an element from a stack when it is already empty
